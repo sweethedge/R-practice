@@ -1,5 +1,5 @@
 ■ csv 파일을 긁고 싶을때
-뭐시기 <- read.csv('어쩌구.csv')
+a <- read.csv('어쩌구.csv')
 
 ■ csv 파일을 만들고 싶을 때
 write.csv(니가-짠-거, '어쩌구.csv', quote= F, 인코딩)
