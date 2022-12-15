@@ -18,7 +18,7 @@ subset(원본, 원본$칼럼 == '어쩌구') or
 ■ ggplot + 껌바
 a <- as.data.frame(a)
 class(a)
-a = ggplot(data = , mapping = aes(x=x축, y=y축, fill=니가 그리고 싶은 바 분류))
+a = ggplot(data = , mapping = aes(x=x축, y=y축, fill=니가 그리고 싶은 바색깔. x축이랑 똑같이 집어넣으면 잘 돌아간다))
 b = a + geom_bar(stat = "identity")
 c = b + ggtitle(title) + theme(plot.title = element_text(hjust=0.5)
 
