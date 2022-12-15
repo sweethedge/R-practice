@@ -6,6 +6,7 @@ write.csv(니가-짠-거, '어쩌구.csv', quote= F, 인코딩)
 
 ■ 엑셀파일을 긁고 싶으면
 readxl 라이브러리
+read_excel()
 
 ■ 테이블에서 니가 원하는 것만 떼고 싶으면
 subset(원본, 원본$칼럼 == '어쩌구') or
