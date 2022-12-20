@@ -123,8 +123,8 @@ df22$y2019년 <- as.numeric(df22$y2019년)
 qplot(연령대, data=df22, fill=성별) + ggtitle("연령별 암환자")
 table(df22$연령대, df22$성별)
 
-ggplot(data = df22g, mapping = aes(x = 연령대, y=계, fill=성별)) + geom_bar(stat = 'identity', position = position_dodge()) + ggtitle('연령대별 성별 분석') + theme(plot.title = element_text(hjust = 0.5, size = 20, face = 'bold'))
-ggplot(mapping = aes(x=연령대, y=계, fill=성별), data=df22)
+ggplot(data = df22g, mapping = aes(x = 연령대, y=계, fill=성별)) + geom_bar(stat = 'identity', position = position_dodge()) + ggtitle('연령대별 성별 분석') + theme(plot.title = element_text(hjust = 0.5, size = 20, face = 'bold')) # nolint
+ggplot(mapping = aes(x=연령대, y=계, fill=성별), data=df22) # nolint
 head(df22g)
 
 ggplot(data = df22)
