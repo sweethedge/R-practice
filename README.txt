@@ -84,7 +84,7 @@ predict1 <- predict(model, test)
 
 ■ 모델에 대한 평가
 1. RMSE Root Mean Square Error
-- RMSE <- sqrt(mean(test$actual_data - predict1))
+- RMSE <- sqrt(mean(test$actual_data - predict1)^2)
 
 2. 혼돈행렬 만들어서 n으로 나누기
 - 그전에..
