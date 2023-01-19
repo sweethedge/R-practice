@@ -98,4 +98,5 @@ t <- table(test$thingy, pred)
 
 (t[i,i] + t[i+1, i+1] + ... / sum(t))
 
-
+■ ggplot 회전하고 싶으면 이거
+theme(axis.text.x=element_text(angle=90, hjust=1))
